@@ -1,12 +1,67 @@
+body {
+  background: linear-gradient(90deg, rgba(249,237,243,1) 0%, rgba(255,255,255,1) 100%);
+}
+
 h1 {
-  font-size: 5rem
+  font-size: 5rem;
+  text-align: center;
+  margin: 2vw;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-  font-size: 2rem
+  font-size: 25px;
+  font-weight: 300;
+  padding-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
 }
 
-p {
-  font-size: 1rem
+.container {
+  display: grid;
+  grid-template-columns: 10vw auto 10vw;
 }
+
+.section {
+  padding: 10px;
+  margin: 1vw;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 20px rgb(100,100,100));
+  counter-increment: boxes 1;
+}
+
+.section li {
+  font-size: 14px;
+  padding-bottom: 5px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  list-style-position: inside;
+  list-style-type: " • ";
+}
+
+#page {
+  counter-reset: boxes 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  margin: 1vw;
+}
+
+#notices {
+  background: linear-gradient(to bottom right, hsl(360, 85%, 50%) 0%, hsl(320, 100%, 55%) 100%);
+}
+
+#calendar {
+  background: linear-gradient(to bottom right, hsl(350, 85%, 50%) 0%, hsl(310, 100%, 55%) 100%);
+}
+
+#petitions {
+  background: linear-gradient(to bottom right, hsl(340, 85%, 50%) 0%, hsl(300, 100%, 55%) 100%);}
+
+#rules {
+  background: linear-gradient(to bottom right, hsl(330, 85%, 50%) 0%, hsl(290, 100%, 55%) 100%);}
+
+#links {
+  background: linear-gradient(to bottom right, hsl(320, 85%, 50%) 0%, hsl(280, 100%, 55%) 100%);}
+
+ 
 
