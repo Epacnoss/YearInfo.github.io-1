@@ -1,0 +1,31 @@
+{"title":"Group Info",
+"notices":[
+    "Have a good Half Term :)",
+    "KCS closed till at least Feb Half Term",
+    "French mocks after Feb Half Term",
+    "IGCSEs cancelled?"
+],
+"Mornings":[
+    "Monday – Tutor Groups",
+    "Tuesday – Form Time",
+    "Wednesday – Form Time + Assembly",
+    "Thursday – Tutor Groups",
+    "Friday – Form Time (+ Assembly)"
+],
+"Calendar":[
+    "Week of 08/03/21 – Assesements"
+],
+"Petitions":{
+    "Free school meals":{"Text":"Free School Meals","Link":"https://petition.parliament.uk/petitions/554276"}
+},
+"Rules":[
+    "No NSFW",
+    "No Spam/Chainmail",
+    "No Racism/Homophobia"
+
+],
+"Links":{
+    "Discord":{"Text":"Join the Discord (Among Us, Minecraft and more!)","Link":"https://discord.gg/nyMsCnS"},
+    "SSPR":{"Text":"Set up Password Resets for your school account","Link":"https://aka.ms/ssprsetup"}
+}
+}
