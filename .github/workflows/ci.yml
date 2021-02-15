@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
       - name: run Lighthouse CI
         run: |
-          npm install -g @lhci/cli@0.7.x
+          sudo npm install -g @lhci/cli@0.7.x
           lhci autorun
