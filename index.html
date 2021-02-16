@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta http-equiv="Content-Security-Policy" content="default-src https://l5info.live https://fonts.gstatic.com https://fonts.googleapis.com; form-action 'none'; upgrade-insecure-requests; object-src 'none'; script-src 'self' 'unsafe-inline' ajax.cloudflare.com static.cloudflareinsights.com cdn.report-uri.com; connect-src 'self' yearinfo.report-uri.com">
+    <meta http-equiv="Content-Security-Policy" content="default-src https://l5info.live https://fonts.gstatic.com https://fonts.googleapis.com; form-action 'none'; upgrade-insecure-requests; object-src 'none'; script-src 'self' 'unsafe-inline' ajax.cloudflare.com static.cloudflareinsights.com cdn.report-uri.com; connect-src 'self' https://l5info.live yearinfo.report-uri.com">
     <script type="text/json" id="csp-report-uri">
       {"keys" : ["blockedURI", "columnNumber", "disposition", "documentURI", "effectiveDirective", "lineNumber", "originalPolicy", "referrer", "sample", "sourceFile", "statusCode", "violatedDirective"],
       "reportUri" : "https://yearinfo.report-uri.com/r/d/csp/enforce"}
@@ -28,51 +28,7 @@
     <script src="js/parser.js"></script>
     <div class=container>
       <div id=page>
-        <h1>Group Info</h1>
-
-        <div class=section id=notices>
-          <h2>Notices</h2>
-          <ul>
-            <li>KCS closed till at least Feb Half Term</li>
-            <li>French mocks after Feb Half Term</li>
-            <li>IGCSEs still going ahead?</li>
-          </ul>
-        </div>
-        
-        <div class=section id=calendar>
-          <h2>Calendar</h2>
-          <ul>
-            <li>Monday – Tutor Groups</li>
-            <li>Tuesday – Form Time</li>
-            <li>Wednesday – Form Time + Assembly</li>
-            <li>Thursday – Tutor Groups</li>
-            <li>Friday – Form Time (+ Assembly)</li>
-          </ul>
-        </div>
-
-        <div class=section id=petitions>
-          <h2>Petitions</h2>
-          <ul>
-            <li><a href=https://petition.parliament.uk/petitions/554276>Free school meals</a></li>
-          </ul>
-        </div>
-        
-        <div class=section id=rules>
-          <h2>Rules</h2>
-          <ul>
-            <li>No NSFW</li>
-            <li>No Spam/Chainmail</li>
-            <li>No Racism/Homophobia</li>
-          </ul>
-        </div>
-        
-        <div class=section id=links>
-          <h2>Links</h2>
-          <ul>
-            <li><a href=https://discord.gg/nyMsCnS>Join the Discord (Among Us and Minecraft Server)</a></li>
-            <li><a href=https://aka.ms/ssprsetup>Set up Password Resets for your school account</a></li>
-          </ul>
-        </div>
+        <h1 id="title">/h1>
       </div>
     </div>
   </body>
