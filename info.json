@@ -1,40 +1,61 @@
 {
-    "title": "Group Info",
-    "notices": [
-      "Have a good Half Term :)",
-      "KCS closed till at least Feb Half Term",
-      "French mocks after Feb Half Term",
-      "IGCSEs cancelled?"
-    ],
-    "mornings": [
-      "Monday – Tutor Groups",
-      "Tuesday – Form Time",
-      "Wednesday – Form Time + Assembly",
-      "Thursday – Tutor Groups",
-      "Friday – Form Time (+ Assembly)"
-    ],
-    "calendar": [
-      "Week of 08/03/21 – Assesements"
-    ],
-    "petitions": {
-      "Free school meals": {
-        "text": "Free School Meals",
-        "link": "https://petition.parliament.uk/petitions/554276"
-      }
+  "title": "Group Info",
+  "sections": [
+
+    {
+      "title": "Notices",
+      "items": [
+        "Have a good Half Term :)",
+        "KCS closed till at least Feb Half Term",
+        "French mocks after Feb Half Term",
+        "IGCSEs cancelled?"
+      ]
     },
-    "rules": [
-      "No NSFW",
-      "No Spam/Chainmail",
-      "No Racism/Homophobia"
-    ],
-    "links": {
-      "Discord": {
-        "text": "Join the Discord (Among Us, Minecraft and more!)",
-        "link": "https://discord.gg/nyMsCnS"
-      },
-      "SSPR": {
-        "text": "Set up Password Resets for your school account",
-        "link": "https://aka.ms/ssprsetup"
-      }
+    {
+      "title": "Mornings",
+      "items": [
+        "Monday – Tutor Groups",
+        "Tuesday – Form Time",
+        "Wednesday – Form Time + Assembly",
+        "Thursday – Tutor Groups",
+        "Friday – Form Time (+ Assembly)"
+      ]
+    },
+    {
+      "title": "Calendar",
+      "items": [
+        "Week of 08/03/21 – Assesements"
+      ]
+    },
+    {
+      "title": "Petitions",
+      "items": [
+        {
+          "text": "Free School Meals",
+          "url": "https://petition.parliament.uk/petitions/554276"
+        }
+      ]
+    },
+    {
+      "title": "Rules",
+      "items": [
+        "No NSFW",
+        "No Spam/Chainmail",
+        "No Racism/Homophobia"
+      ]
+    },
+    {
+      "title": "Links",
+      "items": [
+        {
+          "text": "Join the Discord (Among Us, Minecraft and more!)",
+          "url": "https://discord.gg/nyMsCnS"
+        },
+        {
+          "text": "Set up Password Resets for your school account",
+          "url": "https://aka.ms/ssprsetup"
+        }
+      ]
     }
-  }
+  ]
+}
