@@ -1,5 +1,2 @@
 User-agent: JackSB
 Allow: /
-
-User-agent: *
-Disallow: /
