@@ -1,4 +1,4 @@
 Contact: mailto:security@l5info.live
 Preferred-Languages: en
 Canonical: https://l5info.live/.well-known/security.txt
-Expires: Sat, 01 Jan 2022 00:00:00 -0000
+Expires: Sat, 02 Jan 2022 00:00:00 -0000
