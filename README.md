@@ -1,7 +1,7 @@
 # Welcome 
 ... you've found us. Feel free to check out our code and open issues/pull requests. Contact us on Discord if you want to be more involved!
 
-# Boring stuff
+# Boring stuff :D
 
 ## Test Commits
 
