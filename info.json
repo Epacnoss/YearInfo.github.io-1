@@ -56,6 +56,15 @@
           "url": "https://aka.ms/ssprsetup"
         }
       ]
+    },
+    {
+      "title": "Contact us at",
+      "items": [
+        {
+          "text": "hello@l5info.live",
+          "url": "mailto:hello@l5info.live"
+        }
+      ]
     }
     
   ]
