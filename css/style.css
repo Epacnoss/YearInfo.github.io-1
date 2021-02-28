@@ -3,7 +3,7 @@ body {
 }
 /* background: linear-gradient(to bottom right, rgb(21, 22, 22), rgb(0, 13, 19)); */
 h1 {
-  color: rgb(191, 225, 205);
+  color: white;
   font-size: 5rem;
   text-align: center;
   margin: 2vw;
@@ -24,14 +24,14 @@ a {
 }
 
 a:link {
-  color: rgb(230, 213, 213);
+  color: rgb(191, 191, 255);
 }
 a:visited {
-  color: rgb(135, 135, 243);
+  color: rgb(204, 160, 255);
 }
 a:hover {
-  color: rgb(255,255,255);
-  filter: drop-shadow(10px 5px 20px rgb(100,100,100));
+  color: white;
+  filter: drop-shadow(10px 5px 20px rgb(14, 14, 14));
 }
 
 .container {
@@ -43,7 +43,7 @@ a:hover {
   padding: 10px;
   margin: 1vw;
   border-radius: 10px;
-  filter: drop-shadow(10px 5px 20px rgb(100,100,100));
+  filter: drop-shadow(10px 5px 20px rgb(14, 14, 14));
   color: white;
   background: linear-gradient(to bottom right,hsl(220, 76%, 18%) 0%, hsl(260, 76%, 18%) 100%);
 }
