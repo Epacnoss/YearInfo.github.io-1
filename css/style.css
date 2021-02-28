@@ -1,9 +1,9 @@
 body {
-  background: linear-gradient(90deg, rgb(237, 247, 249) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(90deg, rgb(21, 22, 22) 100%, rgb(0, 13, 19) 0%);
 }
-
+/* background: linear-gradient(to bottom right, rgb(21, 22, 22), rgb(0, 13, 19)); */
 h1 {
-  color: 000000;
+  color: rgb(191, 225, 205);
   font-size: 5rem;
   text-align: center;
   margin: 2vw;
@@ -19,9 +19,19 @@ h2 {
 }
 
 a {
-  color: C0C0FF;
   font-weight:600;
   font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  color: rgb(230, 213, 213);
+}
+a:visited {
+  color: rgb(135, 135, 243);
+}
+a:hover {
+  color: rgb(255,255,255);
+  filter: drop-shadow(10px 5px 20px rgb(100,100,100));
 }
 
 .container {
@@ -53,5 +63,3 @@ a {
   grid-column-end: 3;
   margin: 1vw;
 }
-
- 
